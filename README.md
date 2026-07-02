@@ -1,26 +1,29 @@
 # CineStream Content Analytics Dashboard
 
-Interactive Streamlit dashboard for analyzing OTT platform content performance.
+## Project Overview
+CineStream Content Analytics is an interactive Streamlit dashboard for analyzing OTT content performance.
+
+### Live Links
+- Streamlit: https://cinestream-content-analytics-1.streamlit.app/
+- GitHub: https://github.com/muhammed-naveed/cinestream-content-analytics
 
 ## Features
-
 - KPI Cards
-- Genre Analysis
-- Language Analysis
-- ROI Analysis
-- IMDb Analysis
 - Interactive Filters
+- Genre & Language Analysis
+- ROI Analysis
+- Quality Alerts
 - CSV Export
 
-## Tech Stack
-
+## Technologies
 - Streamlit
 - Pandas
 - NumPy
 - Matplotlib
 - Plotly
 
-## Run
-
+## Run Locally
 ```bash
+pip install -r requirements.txt
 streamlit run cinestream_app.py
+```
