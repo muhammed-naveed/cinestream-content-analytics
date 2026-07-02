@@ -19,7 +19,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
 
-    df = pd.read_csv(r"C:\Users\navee\CineStream\data\CineStream_Catalog.csv")
+    df = pd.read_csv("data/CineStream_Catalog.csv")
 
     # Remove duplicates
     df = df.drop_duplicates()
